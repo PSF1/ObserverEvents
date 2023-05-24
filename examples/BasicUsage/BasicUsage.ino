@@ -13,7 +13,8 @@ class ObservableEvent1 : public ObservableEvent {
 void evento1Handler(const ObservableEvent& event) {
   Serial.println("Event 1 fired");
 
-  // ObservableEvent1 event1;
+  // Uncomment this two lines to chain the second event type.
+  //ObservableEvent1 event1;
   //eventManager.notifyEvent(event1);
 }
 
