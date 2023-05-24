@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Allow Arduino IDE library edition, but we want not have it in the repo.
+.development
